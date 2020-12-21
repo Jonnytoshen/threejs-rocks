@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  padding: .2em;
+  width: auto;
+  border: 5px solid black;
+  line-height: .8em;
+  font-size: 5em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
